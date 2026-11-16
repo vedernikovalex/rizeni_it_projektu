@@ -4,8 +4,9 @@ Obsahový podklad týmu k 2. prezentaci a k písemnému dokumentu. Zadání a te
 
 | Soubor | Obsah |
 |---|---|
-| `spolubyt-semestralni-projekt.docx` | písemný dokument (26 stran) se všemi body zadání: idea, Lean Canvas, Business Model Canvas, persony, architektura, harmonogram, Business Case, rizika, Use Case diagram, scénáře, wireframy |
-| `spolubyt-business-case.xlsx` | Business Case na 5 let: předpoklady, uživatelé a příjmy, provoz, lidské zdroje po měsících, NPV, grafy |
+| `spolubyt-semestralni-projekt.docx` | písemný dokument (32 stran) se všemi body zadání: idea, Lean Canvas, Business Model Canvas, persony, architektura, harmonogram, Business Case, rizika, Use Case diagram, scénáře, wireframy |
+| `spolubyt-semestralni-projekt-nahled.pdf` | náhled písemného dokumentu v PDF |
+| `spolubyt-business-case.xlsx` | Business Case na 5 let: předpoklady, uživatelé a příjmy, provoz, lidské zdroje po měsících, NPV, citlivost, grafy |
 | `spolubyt-rizika.xlsx` | registr 14 rizik a jedné příležitosti se zdůvodněním hodnocení, Paretova analýza, matice rizik |
 | `spolubyt-use-case.drawio` | Use Case diagram (UML 2.5, černobílý), zdroj pro draw.io |
 | `spolubyt-use-case.png` | Use Case diagram jako obrázek |
@@ -29,6 +30,8 @@ Obsahový podklad týmu k 2. prezentaci a k písemnému dokumentu. Zadání a te
 - Trh: Praha 49 300, Brno 22 988, ostatní města 40 692, celkem 112 980 studentů mimo koleje, k tomu 50 % za mladé pracující.
 - Podíl na trhu: Praha 7 / 18 / 26 / 30 / 32 %, Brno od roku 2 (9 / 18 / 23 / 26 %), ostatní města od roku 3 (6 / 12 / 15 %). Odliv 35 % ročně.
 - Ceny: Premium hledání 149 Kč měsíčně, inzerát 299 Kč na 30 dní, Premium domácnost 199 Kč měsíčně za domácnost.
+- Zdarma: 3 žádosti o prohlídku měsíčně, rozpočítání nájmu, evidence výdajů a QR platby. Ceny jsou proti 1. části vyšší (99 / 199 / 99 Kč nestačilo na zisk ve 3. roce).
+- Inzeráty jsou v první sezóně (od spuštění do listopadu 2027, rok 1 modelu) zdarma jako opatření k riziku R1, placené od roku 2.
 - Facility 120 000 Kč ročně (coworking a sídlo firmy).
 - Pesimistický scénář = příjmy × 0,85. Diskontní míra 4 % (2T repo sazba ČNB), citlivost s diskontní sazbou ČNB 3 %.
 
@@ -42,18 +45,19 @@ Obsahový podklad týmu k 2. prezentaci a k písemnému dokumentu. Zadání a te
 | Facility (coworking, sídlo firmy) | 20 000 | 120 000 | 120 000 | 120 000 | 120 000 | 500 000 |
 | Marketing | 100 000 | 350 000 | 450 000 | 400 000 | 400 000 | 1 700 000 |
 | Právní a účetní služby | 20 000 | 100 000 | 100 000 | 100 000 | 100 000 | 420 000 |
-| Poplatky obchodů a platební brány | 37 960 | 403 709 | 722 628 | 929 868 | 1 027 695 | 3 121 859 |
-| **Náklady celkem, optimistický** | 4 113 838 | 4 776 287 | 6 392 606 | 7 041 804 | 7 156 894 | 29 481 429 |
-| **Příjmy, optimistický** | 395 413 | 4 205 300 | 7 527 370 | 9 686 126 | 10 705 154 | 32 519 363 |
-| **Zisk, optimistický** | −3 718 425 | −570 987 | 1 134 765 | 2 644 321 | 3 548 260 | 3 037 934 |
-| **Příjmy, pesimistický** | 336 101 | 3 574 505 | 6 398 265 | 8 233 207 | 9 099 381 | 27 641 458 |
-| **Zisk, pesimistický** | −3 772 043 | −1 141 226 | 114 053 | 1 330 883 | 2 096 641 | −1 371 692 |
-| Kumulovaný zisk, optimistický | −3 718 425 | −4 289 412 | −3 154 648 | −510 326 | 3 037 934 | |
-| Kumulovaný zisk, pesimistický | −3 772 043 | −4 913 269 | −4 799 216 | −3 468 333 | −1 371 692 | |
+| Poplatky obchodů a platební brány | 24 881 | 403 709 | 722 628 | 929 868 | 1 027 695 | 3 108 780 |
+| **Náklady celkem, optimistický** | 4 100 759 | 4 776 287 | 6 392 606 | 7 041 804 | 7 156 894 | 29 468 350 |
+| **Příjmy, optimistický** | 259 176 | 4 205 300 | 7 527 370 | 9 686 126 | 10 705 154 | 32 383 126 |
+| **Zisk, optimistický** | −3 841 583 | −570 987 | 1 134 765 | 2 644 321 | 3 548 260 | 2 914 776 |
+| **Příjmy, pesimistický** | 220 300 | 3 574 505 | 6 398 265 | 8 233 207 | 9 099 381 | 27 525 657 |
+| **Zisk, pesimistický** | −3 876 727 | −1 141 226 | 114 053 | 1 330 883 | 2 096 641 | −1 476 376 |
+| Kumulovaný zisk, optimistický | −3 841 583 | −4 412 570 | −3 277 805 | −633 484 | 2 914 776 | |
+| Kumulovaný zisk, pesimistický | −3 876 727 | −5 017 953 | −4 903 900 | −3 573 017 | −1 476 376 | |
 | Aktivní uživatelé | 5 176 | 16 743 | 29 969 | 38 564 | 42 621 | |
 
-- NPV při 4 %: 2 082 271 Kč (optimistický) a −1 719 769 Kč (pesimistický). NPV při 3 %: 2 300 344 Kč a −1 642 465 Kč.
+- NPV při 4 %: 1 963 850 Kč (optimistický) a −1 820 426 Kč (pesimistický). NPV při 3 %: 2 180 774 Kč a −1 744 100 Kč.
 - Zisk v obou scénářích od roku 3. Návratnost v optimistickém scénáři v roce 5, v pesimistickém až po roce 5.
+- Citlivost (list Citlivost): NPV je nulová při konverzi do Premium domácnost 25,8 % (optimistický) a 34,6 % (pesimistický). Při 20 % vychází NPV −2,68 mil. Kč, při 80 % placených inzerátů +0,17 mil. Kč.
 
 ## Rizika
 
@@ -63,31 +67,35 @@ Obsahový podklad týmu k 2. prezentaci a k písemnému dokumentu. Zadání a te
 |---|---|---:|---:|---:|---|---|---|
 | R1 | Málo nabídek pokojů na startu | 7 | 9 | 63 | kritická | Snížit | Marketingový specialista |
 | R2 | Zpoždění vývoje před sezónou | 6 | 9 | 54 | kritická | Snížit | Projektový manažer |
-| R3 | Podvodné profily a inzeráty | 6 | 8 | 48 | kritická | Snížit | Architekt / lead developer |
+| R3 | Podvodné profily a inzeráty | 6 | 8 | 48 | kritická | Snížit | Backend developer |
 | R4 | Nízká ochota platit | 6 | 7 | 42 | kritická | Snížit | Projektový manažer |
-| R5 | Špatná doporučení matchingu | 6 | 6 | 36 | kritická | Snížit | Business analytik |
-| R6 | Únik osobních dat | 3 | 10 | 30 | významná | Přenést | Architekt / lead developer |
+| R5 | Špatná doporučení matchingu | 6 | 6 | 36 | kritická | Snížit | Projektový manažer |
+| R6 | Únik osobních dat | 3 | 10 | 30 | významná | Přenést | Backend developer |
 | R7 | Odchod klíčového vývojáře | 4 | 7 | 28 | významná | Snížit | Projektový manažer |
 | R8 | Vstup konkurence na český trh | 4 | 6 | 24 | významná | Snížit | Marketingový specialista |
-| R9 | Přetížení serverů v sezóně | 6 | 4 | 24 | běžná | Snížit | Architekt / lead developer |
+| R9 | Přetížení serverů v sezóně | 6 | 4 | 24 | běžná | Snížit | Backend developer |
 | R10 | Překročení rozpočtu | 6 | 4 | 24 | běžná | Snížit | Projektový manažer |
 | R11 | Přetížení zákaznické podpory | 7 | 3 | 21 | běžná | Snížit | Projektový manažer |
 | R12 | Aplikace jako platební služba | 2 | 9 | 18 | významná | Vyhnout se | Právník – externí |
-| R13 | Výpadek BankID nebo platební brány | 3 | 4 | 12 | bezvýznamná | Akceptovat | Architekt / lead developer |
+| R13 | Výpadek BankID nebo platební brány | 3 | 4 | 12 | bezvýznamná | Akceptovat | Backend developer |
 | R14 | Změna pravidel App Store / Google Play | 3 | 4 | 12 | bezvýznamná | Akceptovat | Frontend / mobilní developer |
 
 Příležitost P1: spolupráce s univerzitami a kolejemi (strategie využít).
 
+Vlastníky rizik jsou jen role, které zůstávají i v provozním týmu (architekt a business analytik po spuštění končí).
+
 ## Use Case diagram
 
-UML 2.5, černobílý, s hranicí systému, 23 případů užití, 5 aktérů a 2 externí systémy.
+UML 2.5, černobílý, s hranicí systému, 24 případů užití, 5 aktérů a 2 externí systémy.
 
 - **Uživatel** (obecný aktér): Registrovat se, Přihlásit se.
 - **Hledající:** Vyplnit dotazník životního stylu, Procházet doporučené pokoje, Zobrazit detail inzerátu, Požádat o prohlídku.
 - **Nabízející:** Vystavit inzerát pokoje, Vybrat zájemce podle kompatibility, Potvrdit žádost o prohlídku.
-- **Člen domácnosti:** Spravovat domácnost a dohodu o soužití, Spravovat rozpis úklidu, Přidat společný výdaj, Vyrovnat dluh QR platbou, Vyúčtovat energie, Ohodnotit spolubydlícího, Aktivovat Premium domácnost.
+- **Člen domácnosti:** Spravovat domácnost a dohodu o soužití, Spravovat rozpis úklidu, Přidat společný výdaj, Vyrovnat dluh QR platbou, Vyúčtovat energie, Ohodnotit spolubydlícího, Aktivovat Premium domácnost, Pozvat spolubydlícího do domácnosti.
 - **Administrátor:** Moderovat inzeráty a profily.
 - **Vložené a rozšiřující případy:** Spočítat kompatibilitu, Filtrovat podle lokality a dojezdu, Odeslat zprávu, Aktivovat Premium hledání, Ověřit identitu přes BankID, Zaplatit službu.
+- Zaplatit službu «extend» Vystavit inzerát pokoje: v první sezóně do listopadu 2027 je inzerát zdarma.
+- Aktivovat Premium domácnost «extend» Vyúčtovat energie: vyúčtování energií je placené, rozpočítání nájmu, výdaje a QR platby jsou zdarma.
 - Scénáře a wireframy: Procházet doporučené pokoje a Požádat o prohlídku. Plné znění scénářů je v písemném dokumentu, kapitola 10.
 
 ## User journey
