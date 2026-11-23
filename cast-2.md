@@ -4,11 +4,12 @@ Obsahový podklad týmu k 2. prezentaci a k písemnému dokumentu. Zadání a te
 
 | Soubor | Obsah |
 |---|---|
-| `spolubyt-semestralni-projekt.docx` | písemný dokument (32 stran) se všemi body zadání: idea, Lean Canvas, Business Model Canvas, persony, architektura, harmonogram, Business Case, rizika, Use Case diagram, scénáře, wireframy |
+| `spolubyt-semestralni-projekt.docx` | písemný dokument (26 stran) se všemi body zadání: idea, Lean Canvas, persony, architektura, harmonogram, Business Case, rizika, Use Case diagram, scénáře, wireframy |
 | `spolubyt-semestralni-projekt-nahled.pdf` | náhled písemného dokumentu v PDF |
 | `spolubyt-business-case.xlsx` | Business Case na 5 let: předpoklady, uživatelé a příjmy, provoz, lidské zdroje po měsících, NPV, citlivost, grafy |
 | `spolubyt-rizika.xlsx` | registr 14 rizik a jedné příležitosti se zdůvodněním hodnocení, Paretova analýza, matice rizik |
-| `spolubyt-use-case.drawio` | Use Case diagram (UML 2.5, černobílý), zdroj pro draw.io |
+| `spolubyt-use-case.drawio` | Use Case diagram na šířku (prezentace), zdroj pro draw.io |
+| `spolubyt-use-case-a4.drawio` | stejný diagram na výšku (dokument), zdroj pro draw.io |
 | `spolubyt-use-case.png` | Use Case diagram jako obrázek |
 | `spolubyt-cast-2.pptx` | prezentace 2. části, 17 slajdů |
 
@@ -86,17 +87,15 @@ Vlastníky rizik jsou jen role, které zůstávají i v provozním týmu (archit
 
 ## Use Case diagram
 
-UML 2.5, černobílý, s hranicí systému, 24 případů užití, 5 aktérů a 2 externí systémy.
+UML 2.5, černobílý, s hranicí systému, 19 případů užití a 7 aktérů (5 uživatelských rolí + BankID a platební brána jako externí systémy), 9 vazeb include/extend. Zjednodušeno 23. 11. z 24 případů užití kvůli čitelnosti. Verze na šířku je na slajdu 9 (`spolubyt-use-case.drawio`), verze na výšku v dokumentu (`spolubyt-use-case-a4.drawio`), obsah je stejný.
 
 - **Uživatel** (obecný aktér): Registrovat se, Přihlásit se.
 - **Hledající:** Vyplnit dotazník životního stylu, Procházet doporučené pokoje, Zobrazit detail inzerátu, Požádat o prohlídku.
-- **Nabízející:** Vystavit inzerát pokoje, Vybrat zájemce podle kompatibility, Potvrdit žádost o prohlídku.
-- **Člen domácnosti:** Spravovat domácnost a dohodu o soužití, Spravovat rozpis úklidu, Přidat společný výdaj, Vyrovnat dluh QR platbou, Vyúčtovat energie, Ohodnotit spolubydlícího, Aktivovat Premium domácnost, Pozvat spolubydlícího do domácnosti.
+- **Nabízející:** Vybrat zájemce a potvrdit prohlídku, Vystavit inzerát pokoje.
+- **Člen domácnosti:** Spravovat domácnost a pozvat spolubydlící, Spravovat společné finance (výdaje, QR platby, vyúčtování energií), Ohodnotit spolubydlícího, Aktivovat Premium domácnost.
 - **Administrátor:** Moderovat inzeráty a profily.
-- **Vložené a rozšiřující případy:** Spočítat kompatibilitu, Filtrovat podle lokality a dojezdu, Odeslat zprávu, Aktivovat Premium hledání, Ověřit identitu přes BankID, Zaplatit službu.
-- Zaplatit službu «extend» Vystavit inzerát pokoje: v první sezóně do listopadu 2027 je inzerát zdarma.
-- Aktivovat Premium domácnost «extend» Vyúčtovat energie: vyúčtování energií je placené, rozpočítání nájmu, výdaje a QR platby jsou zdarma.
-- Scénáře a wireframy: Procházet doporučené pokoje a Požádat o prohlídku. Plné znění scénářů je v písemném dokumentu, kapitola 10.
+- **Vazby:** Procházet «include» Spočítat kompatibilitu; Filtrovat podle lokality a dojezdu «extend» Procházet; Požádat o prohlídku «include» Odeslat zprávu; Aktivovat Premium hledání «extend» Požádat o prohlídku; Aktivovat Premium hledání a Aktivovat Premium domácnost «include» Zaplatit službu; Zaplatit službu «extend» Vystavit inzerát (od 2. roku); Vystavit inzerát a Aktivovat Premium hledání «include» Ověřit identitu přes BankID.
+- Scénáře a wireframy: Procházet doporučené pokoje a Požádat o prohlídku.
 
 ## User journey
 
