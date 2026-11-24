@@ -20,16 +20,14 @@ Hlavní zdroj pravdy pro práci na předmětu a semestrálním projektu. Vycház
 
 ## Termíny
 
-Kurz je zkopírovaný z loňska a termíny v Moodlu nejsou aktualizované (Moodle u nich hlásí zpoždění
-přes 300 dní, fóra Oznámení a Novinky jsou prázdná). Skutečné termíny je nutné ověřit v MS Teams.
+Stav Moodlu k 12. 11. 2026 (termíny už jsou aktualizované; 3. část jako samostatná odevzdávárna zmizela):
 
-| Odevzdání | Lichý týden (loni) | Sudý týden (loni) |
+| Odevzdání | Lichý týden | Sudý týden |
 |---|---|---|
-| 1. část | 30. 10. 2025 23:59 | 6. 11. 2025 23:59 |
-| 2. část | 11. 12. 2025 23:59 | 18. 12. 2025 23:59 |
-| 3. část | 11. 12. 2025 23:59 | 18. 12. 2025 23:59 |
+| 1. část | 27. 10. (st) / 29. 10. (pá) | 3. 11. (st) / 5. 11. (pá) |
+| 2. část | 24. 11. 2026 23:59 (st) / 26. 11. (pá) | 1. 12. 2026 23:59 (st) / 3. 12. (pá) |
 
-Při zachování loňského rytmu připadá 1. část letos na přelom října a listopadu 2026.
+Chodíme pravděpodobně v lichém týdnu na středeční seminář (11. 11. vyučující řekl „za 14 dní“) → 2. část do **24. 11. 2026 23:59**.
 
 ## Témata cvičení
 
@@ -196,13 +194,15 @@ Ošetření všech rizik stojí 415 000 Kč (pravidla uvádějí „cca 350 tis�
 | Týden cvičení (lichý / sudý) | — |
 | Téma projektu | Spolubyt (pracovní název) – matching spolubydlících + správa společné domácnosti |
 | Hotové části | 1. část – obsah v [cast-1.md](cast-1.md), prezentace `spolubyt-cast-1.pptx`, Gantt `spolubyt-harmonogram.xlsx`; připraveno k odevzdání |
+| 2. část | obsah v [cast-2.md](cast-2.md), prezentace `spolubyt-cast-2.pptx`, `spolubyt-business-case.xlsx`, `spolubyt-rizika.xlsx`, `spolubyt-use-case.drawio`; k revizi týmem |
+| Diagramy | UML diagramy (Use Case, ERD…) černobíle podle normy v draw.io; vysvětlující schémata v prezentaci mohou být v barvách |
 | Archiv | `puvodni/` – první verze 1. části; `new/` – revize od kolegy před opravou přetížení FE |
 | Postup | obsah nejdřív v MD v této složce, PPTX a XLSX se z něj generují |
 | Nástroj na harmonogram | Excel (MS Project není k dispozici) |
 
 ## Otevřené otázky
 
-- Skutečné letošní termíny odevzdání (ověřit v MS Teams).
+- Potvrdit lichý týden / středu (termín 2. části 24. 11.).
 - Kam se odevzdává finální písemný dokument – složka v MS Teams, nebo Moodle.
 - Obsah SharePoint tabulek (týmy, e-maily pro Jira) – vyžadují přihlášení Microsoft účtem.
 - Text souboru „Zadání hry“ se nepodařilo extrahovat (pravděpodobně obrázky nebo textová pole).
